@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.container div{
+    padding: 30px;
+    flex-basis: 30%;
+    border-radius: 10%;
+    box-shadow: -1px 3px 10px rgb(224, 144, 144);
+    
+}
+
+.container .child1{
+    background: aqua; 
+    
+  
+}
+.container .child2{
+   background: blueviolet;
+  
+  
+}
+.container .child3{
+    background: rgb(48, 35, 16);
+   
+}
+.container .child4{
+    background: rgb(232, 201, 155);
+}
+.container .child5{
+    background: rgb(198, 127, 20);
+}
+
+
+body{
+    background: rgb(55, 38, 38);
+}
+
+.scrl{
+    color: rgb(240, 238, 235);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.9em;
+    padding: 50px;
+}
+
+p{
+    color: rgb(235, 189, 132);
+    font-size: 1.2em;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: rgb(48, 152, 22);
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(16, 51, 28);
+}
+
+::-webkit-scrollbar-track:hover{
+    background: rgb(8, 38, 18);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,rgb(33, 221, 74));
+}
